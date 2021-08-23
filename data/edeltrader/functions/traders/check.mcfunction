@@ -1,5 +1,5 @@
 
-# Run wandering trader check every second
+# Run wandering trader check every second (this dictates the update speed. Use s for seconds or t for ticks)
 schedule function edeltrader:traders/check 1s
 
 # Initialize new traders
