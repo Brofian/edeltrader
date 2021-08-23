@@ -8,4 +8,4 @@ scoreboard objectives add et_rand dummy
 scoreboard objectives add et_num_trades dummy
 
 # Output success message
-tellraw @a {"text":"[Initialized Edeltraders]","bold":true,"color":"blue"}
+tellraw @a {"text":"[Initialized Edeltraders]","color":"blue"}
