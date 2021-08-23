@@ -1,8 +1,8 @@
 
-#Remove schedules
+# Remove schedules
 schedule clear
 
 
-#Remove Scoreboard objectives
+# Remove Scoreboard objectives
 scoreboard objectives remove et_rand
 scoreboard objectives remove et_num_trades

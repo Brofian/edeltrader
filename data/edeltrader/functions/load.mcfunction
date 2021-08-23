@@ -7,5 +7,5 @@ schedule function edeltrader:traders/check 1s
 scoreboard objectives add et_rand dummy
 scoreboard objectives add et_num_trades dummy
 
-
-say loaded
+# Output success message
+tellraw @a {"text":"[Initialized Edeltraders]","bold":true,"color":"blue"}
