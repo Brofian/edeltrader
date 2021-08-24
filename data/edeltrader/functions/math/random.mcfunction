@@ -21,3 +21,6 @@ execute store result score @s et_rand run scoreboard players get @e[type=area_ef
 
 # Remove the area_effect_clouds
 kill @e[type=area_effect_cloud,name="et_math_random_cloud",distance=..1,tag=et_math_random_cloud]
+
+# Limit the random value to 1000 to create a nearly perfect random number between 0 and 1000
+scoreboard players operation @s et_rand %= @s et_num_trades
